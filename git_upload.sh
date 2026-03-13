@@ -1,5 +1,5 @@
 # git init 
-cd /Users/youwei.wang/Documents/PythonProject/image_repo/extracted_images \
+cd /Users/youwei.wang/Documents/PythonProject/image_repo \
 && git remote add origin https://github.com/russwestbrick/image_cloud.git
 
 
@@ -12,5 +12,5 @@ git checkout -b 'image_testset_v1' \
 # overwrite to existing branch
 git checkout 'image_testset_v1' \
 && git add -A \
-&& git commit -m "Update extracted_images" \
+&& git commit -m "image_demo" \
 && git push -f
